@@ -1,4 +1,8 @@
 # Deep Learning
+* [房价预测](##房价预测)
+* [神经网络](##neural_network_Python)
+* [人脸识别](##人脸识别)
+* [个人博客](zhbit92.github.io)
 
 ## 房价预测
 ### 步骤
@@ -80,8 +84,8 @@ g = sns.heatmap(train.corr())
 
 
 
-### neural_network_Python
+## neural_network_Python
 
 * Andrew NG的Deep Learning的系列课程资料
 * [深度学习与神经网络学习笔记(吴恩达)](https://zhbit92.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C-%E5%90%B4%E6%81%A9%E8%BE%BE/)
-### 人脸识别
+## 人脸识别
