@@ -1,8 +1,9 @@
 # Deep Learning
-* [房价预测](##房价预测)
-* [神经网络](##neural_network_Python)
-* [人脸识别](##人脸识别)
-* [个人博客](zhbit92.github.io)
+* [房价预测](#房价预测)
+* [神经网络](#neural_network_Python)
+* [人脸识别](#人脸识别)
+
+[个人博客](https://zhbit92.github.io/)
 
 ## 房价预测
 ### 步骤
