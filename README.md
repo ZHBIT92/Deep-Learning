@@ -1,11 +1,14 @@
 # Deep Learning
-* [房价预测](#房价预测)
+* [Kaggle房价预测](#Kaggle房价预测)
 * [神经网络](#neural_network_Python)
 * [人脸识别](#人脸识别)
-* [个人博客](zhbit92.github.io)
 
-## 房价预测
+## Kaggle房价预测
 通过数据挖掘、可视化、清洗的方法获取房产数据集中与房价有关的特征，建立机器学习模型，多个模型拟合得到最优参数，实现对房产价格的预测。
+* [文件描述](#文件描述)
+* [探究数据](#探究数据)
+* [人脸识别](#人脸识别)
+
 
 ### 文件描述
 * data：相关数据集
@@ -15,7 +18,18 @@
 
 ### 探究数据
 #### 查看目标函数与理解相关业务
-![](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/H6ibFfcak0.png?imageslim)
+```
+count      1460.000000
+mean     180921.195890
+std       79442.502883
+min       34900.000000
+25%      129975.000000
+50%      163000.000000
+75%      214000.000000
+max      755000.000000
+Name: SalePrice, dtype: float64
+```
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/mFB5CKFKdc.png?imageslim)
 
 #### 数据分类-> 数值特征和类别特征
 * 方法一
@@ -31,23 +45,48 @@ categorical_feats = features.dtypes[features.dtypes=="object"].index
 
 #### 查看特征与目标变量的关系
 ##### 数值特征
-* 通过`seaborn`的`regplot`函数作箱形图来显示类别特征与目标变量之间的关系
+* 通过`seaborn`的`jointplot`函数作散点图来显示数值特征与目标变量之间的关系（部分举例）
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/GLL1aDDel3.png?imageslim)
 
 ##### 类别特征
-* 通过`seaborn`的`boxplot()`函数作箱形图来显示类别特征与目标变量之间的关系
+* 通过`seaborn`的`boxplot()`函数作箱形图来显示类别特征与目标变量之间的关系（部分举例）
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/Ba4ajKfg5e.png?imageslim)
 
 ##### 整体关系
 * 通过`DataFrame.corr()`方法显示列之间的相关性（或关系），可以用来研究特征与目标变量的亲密程度
+```
+相关性前5
+OverallQual    0.790982
+GrLivArea      0.708624
+GarageCars     0.640409
+GarageArea     0.623431
+TotalBsmtSF    0.613581
+Name: SalePrice, dtype: float64 
 
-
+相关性-5
+YrSold          -0.028923
+OverallCond     -0.077856
+MSSubClass      -0.084284
+EnclosedPorch   -0.128578
+KitchenAbvGr    -0.135907
+Name: SalePrice, dtype: float64 
+```
 * 通过`seaborn`的`heatmap()`函数作热力图显示
-
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/6JA27IjA93.png?imageslim)
 
 ##### 缺失值情况
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/69JLc3GhGK.png?imageslim)
+
+### 训练模型
+* Ridge模型
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/kLf32b5iLD.png?imageslim)
+* Lasso模型
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/480ajDlgIc.png?imageslim)
 
 
 ## neural_network_Python
 
 * Andrew NG的Deep Learning的系列课程资料
 * [深度学习与神经网络学习笔记(吴恩达)](https://zhbit92.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C-%E5%90%B4%E6%81%A9%E8%BE%BE/)
+
 ## 人脸识别
