@@ -7,7 +7,7 @@
 通过数据挖掘、可视化、清洗的方法获取房产数据集中与房价有关的特征，建立机器学习模型，多个模型拟合得到最优参数，实现对房产价格的预测。
 * [文件描述](#文件描述)
 * [探究数据](#探究数据)
-* [人脸识别](#人脸识别)
+* [训练模型](#训练模型)
 
 
 ### 文件描述
@@ -79,9 +79,13 @@ Name: SalePrice, dtype: float64
 
 ### 训练模型
 * Ridge模型
+
 ![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/kLf32b5iLD.png?imageslim)
+
 * Lasso模型
+
 ![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/480ajDlgIc.png?imageslim)
+
 
 
 ## neural_network_Python
