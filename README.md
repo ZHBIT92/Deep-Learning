@@ -1,7 +1,6 @@
 # Deep Learning
-* [Kaggle房价预测](#Kaggle房价预测)
-* [神经网络](#neural_network_Python)
-* [人脸识别](#人脸识别)
+* [Kaggle房价预测](#Kaggle房价预测)  
+![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180403/BL3jk0fGdi.png?imageslim)
 
 ## Kaggle房价预测
 通过数据挖掘、可视化、清洗的方法获取房产数据集中与房价有关的特征，建立机器学习模型，多个模型拟合得到最优参数，实现对房产价格的预测。
@@ -85,12 +84,3 @@ Name: SalePrice, dtype: float64
 * Lasso模型
 
 ![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180331/480ajDlgIc.png?imageslim)
-
-
-
-## neural_network_Python
-
-* Andrew NG的Deep Learning的系列课程资料
-* [深度学习与神经网络学习笔记(吴恩达)](https://zhbit92.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C-%E5%90%B4%E6%81%A9%E8%BE%BE/)
-
-## 人脸识别
