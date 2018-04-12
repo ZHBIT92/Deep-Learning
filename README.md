@@ -2,6 +2,8 @@
 * [Kaggle房价预测](#Kaggle房价预测)  
 ![mark](http://p1mjzrkoc.bkt.clouddn.com/blog/180403/BL3jk0fGdi.png?imageslim)
 
+* [人脸识别](https://zhbit92.github.io/2018/03/13/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%ABpython%E5%AE%9E%E7%8E%B0/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E5%8F%8A%E8%AF%86%E5%88%ABpython%E5%AE%9E%E7%8E%B0/)
+
 ## Kaggle房价预测
 通过数据挖掘、可视化、清洗的方法获取房产数据集中与房价有关的特征，建立机器学习模型，多个模型拟合得到最优参数，实现对房产价格的预测。
 * [文件描述](#文件描述)
